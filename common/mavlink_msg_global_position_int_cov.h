@@ -33,7 +33,6 @@ typedef struct __mavlink_global_position_int_cov_t {
     "GLOBAL_POSITION_INT_COV", \
     10, \
     {  { "time_usec", NULL, MAVLINK_TYPE_UINT64_T, 0, 0, offsetof(mavlink_global_position_int_cov_t, time_usec) }, \
-         { "estimator_type", NULL, MAVLINK_TYPE_UINT8_T, 0, 180, offsetof(mavlink_global_position_int_cov_t, estimator_type) }, \
          { "lat", NULL, MAVLINK_TYPE_INT32_T, 0, 8, offsetof(mavlink_global_position_int_cov_t, lat) }, \
          { "lon", NULL, MAVLINK_TYPE_INT32_T, 0, 12, offsetof(mavlink_global_position_int_cov_t, lon) }, \
          { "alt", NULL, MAVLINK_TYPE_INT32_T, 0, 16, offsetof(mavlink_global_position_int_cov_t, alt) }, \
@@ -42,6 +41,7 @@ typedef struct __mavlink_global_position_int_cov_t {
          { "vy", NULL, MAVLINK_TYPE_FLOAT, 0, 28, offsetof(mavlink_global_position_int_cov_t, vy) }, \
          { "vz", NULL, MAVLINK_TYPE_FLOAT, 0, 32, offsetof(mavlink_global_position_int_cov_t, vz) }, \
          { "covariance", NULL, MAVLINK_TYPE_FLOAT, 36, 36, offsetof(mavlink_global_position_int_cov_t, covariance) }, \
+         { "estimator_type", NULL, MAVLINK_TYPE_UINT8_T, 0, 180, offsetof(mavlink_global_position_int_cov_t, estimator_type) }, \
          } \
 }
 #else
@@ -49,7 +49,6 @@ typedef struct __mavlink_global_position_int_cov_t {
     "GLOBAL_POSITION_INT_COV", \
     10, \
     {  { "time_usec", NULL, MAVLINK_TYPE_UINT64_T, 0, 0, offsetof(mavlink_global_position_int_cov_t, time_usec) }, \
-         { "estimator_type", NULL, MAVLINK_TYPE_UINT8_T, 0, 180, offsetof(mavlink_global_position_int_cov_t, estimator_type) }, \
          { "lat", NULL, MAVLINK_TYPE_INT32_T, 0, 8, offsetof(mavlink_global_position_int_cov_t, lat) }, \
          { "lon", NULL, MAVLINK_TYPE_INT32_T, 0, 12, offsetof(mavlink_global_position_int_cov_t, lon) }, \
          { "alt", NULL, MAVLINK_TYPE_INT32_T, 0, 16, offsetof(mavlink_global_position_int_cov_t, alt) }, \
@@ -58,6 +57,7 @@ typedef struct __mavlink_global_position_int_cov_t {
          { "vy", NULL, MAVLINK_TYPE_FLOAT, 0, 28, offsetof(mavlink_global_position_int_cov_t, vy) }, \
          { "vz", NULL, MAVLINK_TYPE_FLOAT, 0, 32, offsetof(mavlink_global_position_int_cov_t, vz) }, \
          { "covariance", NULL, MAVLINK_TYPE_FLOAT, 36, 36, offsetof(mavlink_global_position_int_cov_t, covariance) }, \
+         { "estimator_type", NULL, MAVLINK_TYPE_UINT8_T, 0, 180, offsetof(mavlink_global_position_int_cov_t, estimator_type) }, \
          } \
 }
 #endif
