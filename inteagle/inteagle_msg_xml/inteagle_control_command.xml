@@ -1,0 +1,25 @@
+<?xml version="1.0"?>
+<mavlink>
+	<version>1</version>
+	<enums>
+	</enums>
+	<messages>
+		<message id="158" name="INTEAGLE_CONTROL_COMMAND">
+			<description>This message an INTEAGLE type control command.</description>
+			<field type="uint64_t" name="timestamp"> Time stamp [microseconds].</field>
+			<field type="uint64_t" name="execution_time"> Execution time stamp [microseconds].</field>
+			<field type="uint8_t" name="control_mode">Control mode {NONE=0, ANGLE=1, ANGLERATE=2}.</field>
+			<field type="uint8_t" name="off">Control is OFF [on=0, off=1].</field>
+			<field type="float" name="thrust_dir_x">Thrust direction unit vector [-].</field>
+			<field type="float" name="thrust_dir_y">Thrust direction unit vector [-].</field>
+			<field type="float" name="thrust_dir_z">Thrust direction unit vector [-].</field>
+			<field type="float" name="bodyrates_x">Body rate [rad/s].</field>
+			<field type="float" name="bodyrates_y">Body rate [rad/s].</field>
+			<field type="float" name="bodyrates_z">Body rate [rad/s].</field>
+			<field type="float" name="angular_acc_x">Body angular acceleration [rad/s^2].</field>
+			<field type="float" name="angular_acc_y">Body angular acceleration [rad/s^2].</field>
+			<field type="float" name="angular_acc_z">Body angular acceleration [rad/s^2].</field>
+			<field type="float" name="thrust">Mass normalized thrust [m/s^2].</field>
+		</message>
+	</messages>
+</mavlink>

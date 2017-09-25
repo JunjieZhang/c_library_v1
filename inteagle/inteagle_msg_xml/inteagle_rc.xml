@@ -1,0 +1,20 @@
+<?xml version="1.0"?>
+<mavlink>
+	<version>1</version>
+	<enums>
+	</enums>
+	<messages>
+		<message id="156" name="INTEAGLE_RC">
+			<description>This message encodes the inputs from a 6 channel remote control.</description>
+			<field type="uint64_t" name="timestamp"> Time stamp [microseconds].</field>
+			<field type="float" name="channel_1">Channel 1 input [].</field>
+			<field type="float" name="channel_2">Channel 2 input [].</field>
+			<field type="float" name="channel_3">Channel 3 input [].</field>
+			<field type="float" name="channel_4">Channel 4 input [].</field>
+			<field type="uint8_t" name="switch_1">Switch 1 [].</field>
+			<field type="uint8_t" name="switch_2">Switch 2 [].</field>
+			<field type="uint8_t" name="switch_3">Switch 2 [].</field>
+			<field type="uint8_t" name="switch_4">Switch 2 [].</field>
+		</message>
+	</messages>
+</mavlink>

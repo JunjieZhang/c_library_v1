@@ -1,0 +1,13 @@
+<?xml version="1.0"?>
+<mavlink>
+	<version>1</version>
+	<enums>
+	</enums>
+	<messages>
+		<message id="160" name="PX4_TIMESYNC">
+			<description>This message carries the sync timestamp of the PX4fmu for the Odroid.</description>
+			<field type="uint64_t" name="timestamp"> Time stamp [microseconds].</field>
+			<field type="int64_t" name="sync_id">Trigger bumber</field>
+		</message>
+	</messages>
+</mavlink>

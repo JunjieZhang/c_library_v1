@@ -1,0 +1,15 @@
+<?xml version="1.0"?>
+<mavlink>
+	<version>1</version>
+	<enums>
+	</enums>
+	<messages>
+		<message id="163" name="ROLL_PITCH_YAW_SPEED_THRUST_SETPOINT">
+			<description>This message encodes the roll pitch yaw speed command for the quadrotor.</description>
+			<field type="float" name="roll_speed">Desired roll angular speed in rad/s</field>
+			<field type="float" name="pitch_speed">Desired roll angular speed in rad/s.</field>
+			<field type="float" name="yaw_speed">Desired roll angular speed in rad/s.</field>
+			<field type="float" name="thrust">Collective thrust, normalized to 0 .. 1.</field>
+		</message>
+	</messages>
+</mavlink>

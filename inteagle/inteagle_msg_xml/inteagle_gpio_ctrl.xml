@@ -1,0 +1,15 @@
+<?xml version="1.0"?>
+<mavlink>
+	<version>1</version>
+	<enums>
+	</enums>
+	<messages>
+		<message id="161" name="INTEAGLE_GPIO_CTRL">
+			<description>This message encodes a the desired status of a PX4FMU GPIO.</description>
+			<field type="uint64_t" name="timestamp"> Time stamp [microseconds].</field>
+			<field type="uint8_t" name="device">Device number [].</field>
+			<field type="uint8_t" name="num_gpio">Output number [].</field>
+			<field type="float" name="value">GPIO level {0.0, 1.0}; Servo pitch [10.0, 11.0]; Duty cycle [20.0, 21.0].</field>
+		</message>
+	</messages>
+</mavlink>

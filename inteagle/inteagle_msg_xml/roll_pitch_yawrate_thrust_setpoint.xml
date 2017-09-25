@@ -1,0 +1,15 @@
+<?xml version="1.0"?>
+<mavlink>
+	<version>1</version>
+	<enums>
+	</enums>
+	<messages>
+		<message id="162" name="ROLL_PITCH_YAWRATE_THRUST_SETPOINT">
+			<description>This message encodes all of the raw rudder sensor data from the USV.</description>
+			<field type="float" name="roll">Desired roll angular speed in rad/s</field>
+			<field type="float" name="pitch">Desired roll angular speed in rad/s.</field>
+			<field type="float" name="yaw_rate">Desired roll angular speed in rad/s.</field>
+			<field type="float" name="thrust">Collective thrust, normalized to 0 .. 1.</field>
+		</message>
+	</messages>
+</mavlink>

@@ -1,0 +1,16 @@
+<?xml version="1.0"?>
+<mavlink>
+	<version>1</version>
+	<enums>
+	</enums>
+	<messages>
+		<message id="155" name="INTEAGLE_DESIRED_TORQUES_AND_THRUST">
+			<description>This message contains the desired torques and thrust.</description>
+			<field type="uint64_t" name="timestamp"> Time stamp [microseconds].</field>
+			<field type="float" name="roll_torque">Roll torque [Nm].</field>
+			<field type="float" name="pitch_torque">Pitch torque [Nm].</field>
+			<field type="float" name="yaw_torque">Yaw rate torque [Nm].</field>
+			<field type="float" name="normalized_thrust">Normalized thrust [N].</field>
+		</message>
+	</messages>
+</mavlink>

@@ -1,5 +1,5 @@
 /** @file
- *  @brief MAVLink comm protocol built from px4_timesync.xml
+ *  @brief MAVLink comm protocol built from emergency_ekf.xml
  *  @see http://mavlink.org
  */
 #pragma once
@@ -9,6 +9,6 @@
 
 #define MAVLINK_BUILD_DATE "Mon Sep 25 2017"
 #define MAVLINK_WIRE_PROTOCOL_VERSION "1.0"
-#define MAVLINK_MAX_DIALECT_PAYLOAD_SIZE 16
+#define MAVLINK_MAX_DIALECT_PAYLOAD_SIZE 64
  
 #endif // MAVLINK_VERSION_H

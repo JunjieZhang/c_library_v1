@@ -1,0 +1,17 @@
+<?xml version="1.0"?>
+<mavlink>
+	<version>1</version>
+	<enums>
+	</enums>
+	<messages>
+		<message id="157" name="INTEAGLE_ONBOARD_STATUS">
+			<description>This message encodes the inputs from a 6 channel remote control.</description>
+			<field type="uint64_t" name="timestamp"> Time stamp [microseconds].</field>
+			<field type="uint8_t" name="commander_state">Commander state [].</field>
+			<field type="uint8_t" name="battery_state">Battery state [].</field>
+			<field type="uint8_t" name="control_mode">Control mode [].</field>
+			<field type="float" name="battery_voltage">Battery voltage [V].</field>
+			<field type="float" name="temperature_pwr">PCB temperature [C].</field>
+		</message>
+	</messages>
+</mavlink>
